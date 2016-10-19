@@ -1,0 +1,135 @@
+body {
+    background-image: url(../images/background.jpg);
+    font-family: "Open Sans", sans-serif;
+}
+
+h2 {
+    font-size: 3em;
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+#total-container {
+    background-color: rgba(0,189,219,0.6);
+}
+
+#main-container {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#top-box {
+    margin-top: 30px;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: #333;
+    color: aliceblue;
+    padding: 30px;
+    border-radius: 20px;
+    height: 50vh;
+    margin-top: 20vh;
+    margin-bottom: 30vh;
+}
+
+
+#top-box img {
+    margin: auto;
+    justify-content: center;
+}
+
+#top-box h2{
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 80%;
+}
+
+#top-box p {
+    width: 60%;
+    margin: 0 20%;
+    
+    padding: 10px;
+}
+
+ul {
+    list-style: none;
+    text-align: center;
+}
+
+li {
+    padding: 5px;
+}
+
+.main-butt {
+    padding: 10px;
+    font-size: 1.5em;
+    background-color: #00BDDB;
+    border: none;
+    border-radius: 5px;
+    width: 100%;
+    margin: 10px 0;
+}
+
+#professional {
+    color: aliceblue;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+}
+
+#professional img {
+    margin: 0 25%;
+    width: 50%;
+}
+
+#professional a {
+    width: 100%;
+}
+
+#professional .main-butt {
+    width: 30%;
+    margin: 30px 35%;
+}
+
+#creative {
+    color: aliceblue;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center
+}
+
+#creative a {
+    width: 100%;
+}
+#creative img {
+    margin: 0 25%;
+    width: 50%;
+}
+
+#creative .main-butt {
+    width: 30%;
+    margin: 30px 35%;
+}
+
+.content {
+    margin: auto;
+    width: 70%;
+    min-height: 50vh;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: #333;
+    padding: 30px;
+    border-radius: 20px;
+}
