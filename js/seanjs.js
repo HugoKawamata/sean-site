@@ -4,7 +4,7 @@
 $(document).ready(function () {
     "use strict";
     
-    $('#professional').each(function () {
+    $('.slide-right').each(function () {
         if ($(window).width() > 639) {
             $(this).css({
                 'opacity': '0',
@@ -13,7 +13,7 @@ $(document).ready(function () {
             });
         }
     });
-    $('#creative').each(function () {
+    $('.slide-left').each(function () {
         if ($(window).width() > 639) {
             $(this).css({
                 'opacity': '0',
